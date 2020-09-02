@@ -1,0 +1,123 @@
+$color_orange: #ff6e3a
+
+*
+    font-family: "微軟正黑體"
+    // border: solid 1px #666
+    
+body
+    height: 1000px
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+    font-weight: bold
+
+nav.navbar
+  transition: 0.5s
+  background-color: #eee
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top
+  background-color: transparent
+  a
+    color: white
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+
+header.jumbotron
+    text-align: center
+    background-image: url("./img/cover_2.jpg")
+    background-size: cover
+    background-attachment: fixed
+    margin-bottom: 0px
+    .container
+        color: $color_orange
+        padding: 200px 0px
+    hr
+        max-width: 50px
+        border: solid 2px $color_orange
+    h4
+        color: white
+        font-weight: bold
+
+section
+    padding: 50px 0px
+
+section#section_about
+    background-color: #fafafa
+    img
+        width: 100%
+        mix-blend-mode: multiply
+    h4
+        margin-top: 30px
+        padding: 0px 20px
+    h3
+        padding: 0px 20px
+    h5
+        line-height: 30px
+    p
+        line-height: 35px
+    .btn
+        margin-top: 30px
+        font-size: 14px
+        color: #fff
+        text-align: center
+        width: auto
+        letter-spacing: normal
+        background: #db4437
+        padding: 15px 18px
+        display: inline-block
+        border-radius: 4px
+
+section#section_skills
+    background-color: #fafafa
+    p
+        line-height: 30px
+    
+
+
+
+section#section_portfolio
+    background-color: #fafafa
+    padding: 0px
+    .portfolio_pic
+        height: 300px
+        overflow: hidden
+        margin: 10px 0px
+        border: solid 1px black
+        img
+            width: 100%
+            height: auto
+
+section#section_portfolio
+    .content
+        padding: 50px
+        align-self: center
+        color: #616161
+        .btn
+            margin-top: 10px
+            font-size: 14px
+            color: #fff
+            text-align: center
+            width: auto
+            letter-spacing: normal
+            max-width: 100%
+            background: #A4D7CA
+            padding: 15px 18px
+            display: inline-block
+            border-radius: 4px
+.page_footer
+    padding-top: 20px
+    color: #fff
+    background-color: #bdbdbd 
+    .col-sm-12
+        padding: 10px 0
+        .learn_more
+            text-align: center
+        #footer-links
+            text-align: center
+            i
+                color: black
+
+.page_footer
+    .copyright
+        text-align: center
+    
+    
